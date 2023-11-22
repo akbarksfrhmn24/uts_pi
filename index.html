@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Streaming</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="">
+        <div class="akbar-navbar">
+          <button class="akbar-navbar-menu">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+          </button>
+
+          <a href="#" class="akbar-navbar-logo">ICHIBANIME</a>
+
+          <nav class="">
+            <ul class="akbar-navbar-nav">
+              <li>
+                <a href="index.html" class="akbar-navbar-link">Home</a>
+              </li>
+              <li>
+                <a href="#" class="akbar-navbar-link">Trending</a>
+              </li>
+              <li>
+                <a href="#" class="akbar-navbar-link">TV Series</a>
+              </li>
+              <li>
+                <a href="#" class="akbar-navbar-link">Movies</a>
+              </li>
+              <li>
+                <a href="/assets/html/genre.html" class="akbar-navbar-link"
+                  >Genre</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="akbar-navbar-actions">
+            <form action="#" class="akbar-navbar-form">
+              <input
+                type="text"
+                name="search"
+                class="akbar-navbar-form-search"
+                placeholder="Search anime..."
+              />
+              <button class="akbar-navbar-form-btn">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+
+              <button class="akbar-navbar-form-close">
+                <ion-icon name="close-circle-outline"></ion-icon>
+              </button>
+            </form>
+
+            <button class="akbar-navbar-search-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <a href="/assets/html/signin.html" class="akbar-navbar-signin">
+              <span>Sign in</span>
+              <ion-icon name="log-in-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="akbar-banner">
+          <div class="akbar-banner-card">
+            <img
+              src="/assets/img/jujutsu-banner.jpeg"
+              alt=""
+              class="akbar-banner-img"
+            />
+
+            <div class="akbar-card-content">
+              <h2 class="akbar-card-title">Jujutsu Kaisen Season 2</h2>
+              <div class="akbar-card-info">
+                <div class="akbar-duration">
+                  <ion-icon name="time"></ion-icon>
+                  <span>23 min</span>
+                </div>
+                <div class="akbar-genre">
+                  <ion-icon name="film"></ion-icon>
+                  <span>Action/School</span>
+                </div>
+
+                <div class="akbar-year">
+                  <ion-icon name="calendar"></ion-icon>
+                  <span>6 Jul, 2023</span>
+                </div>
+
+                <div class="akbar-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <span>8.9</span>
+                </div>
+              </div>
+              <div class="akbar-anime-watch">
+                <div class="akbar-watch">
+                  <ion-icon name="play-circle"></ion-icon>
+                  <span>Watch Now</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="akbar-movies">
+          <div class="akbar-filter-bar">
+            <div class="akbar-filter-dropdowns">
+              <select name="genre" class="akbar-genre">
+                <option value="All Genres">All Genres</option>
+                <option value="Action">Action</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Thriller">Thriller</option>
+              </select>
+
+              <select name="genre" class="akbar-year">
+                <option value="All Years">All Years</option>
+                <option value="2023">2023</option>
+                <option value="2021-2022">2021-2022</option>
+                <option value="2019-2020">2019-2020</option>
+                <option value="2017-2018">2017-2018</option>
+                <option value="2015-2016">2015-2016</option>
+                <option value="2013-2014">2013-2014</option>
+              </select>
+            </div>
+            <div class="akbar-filter-anime">
+              <input type="radio" name="grade" id="featured" checked />
+              <label for="featured">Featured</label>
+
+              <input type="radio" name="grade" id="popular" checked />
+              <label for="popular">Popular</label>
+
+              <input type="radio" name="grade" id="newest" checked />
+              <label for="newest">Newest</label>
+            </div>
+          </div>
+
+          <div class="akbar-anime-grid">
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/Kimetsu.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.9</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Kimetsu no Yaiba</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Action</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2019</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/onePiece.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">One Piece</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Action</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">1999</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/stone.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Dr. Stone New World Part 2.</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Action</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img src="/assets/img/sxf.webp" alt="" class="akbar-card-img" />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">SPY x FAMILY Season 2</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Comedy</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/undead.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Undead Unluck</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Action</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/haikyuu.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Haikyu!!</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Sport</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2014</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/kimi.webp"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Kimi no Na wa.</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Romance</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2016</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/tunel.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">
+                  Natsu e no Tunnel, Sayonara no Deguchi
+                </h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Romance</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2022</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/Utagoe.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">
+                  Natsu e no Tunnel, Sayonara no Deguchi
+                </h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Romance</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2022</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="/assets/img/Utagoe.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">
+                  Natsu e no Tunnel, Sayonara no Deguchi
+                </h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Romance</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="akbar-load-more">Load More</button>
+        </section>
+
+        <section class="akbar-category">
+          <h2 class="akbar-section-heading">Genre</h2>
+          <div class="akbar-category-grid">
+            <div class="akbar-category-card">
+              <img
+                src="/assets/img/action.jpg"
+                alt=""
+                class="akbar-category-img"
+              />
+              <div class="akbar-name">Action</div>
+            </div>
+
+            <div class="akbar-category-card">
+              <img
+                src="/assets/img/romance.webp"
+                alt=""
+                class="akbar-category-img"
+              />
+              <div class="akbar-name">Romance</div>
+            </div>
+
+            <div class="akbar-category-card">
+              <img
+                src="/assets/img/sports.jpg"
+                alt=""
+                class="akbar-category-img"
+              />
+              <div class="akbar-name">Sports</div>
+            </div>
+
+            <div class="akbar-category-card">
+              <img
+                src="/assets/img/comedy.jpg"
+                alt=""
+                class="akbar-category-img"
+              />
+              <div class="akbar-name">Comedy</div>
+            </div>
+
+            <div class="akbar-category-card">
+              <img
+                src="/assets/img/comedy.jpg"
+                alt=""
+                class="akbar-category-img"
+              />
+              <div class="akbar-name">Drama</div>
+            </div>
+
+            <div class="akbar-category-card">
+              <img
+                src="/assets/img/isekai.jpg"
+                alt=""
+                class="akbar-category-img"
+              />
+              <div class="akbar-name">Isekai</div>
+            </div>
+
+            <div class="akbar-category-card">
+              <img
+                src="/assets/img/thriller.jpg"
+                alt=""
+                class="akbar-category-img"
+              />
+              <div class="akbar-name">Thriller</div>
+            </div>
+
+            <div class="akbar-category-card">
+              <img
+                src="/assets/img/Music.jpg"
+                alt=""
+                class="akbar-category-img"
+              />
+              <div class="akbar-name">Music</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="akbar-footer-content">
+          <div class="akbar-footer-brand">
+            <a href="#" class="akbar-footer-logo">ICHIBANIME</a>
+            <p class="akbar-slogan">
+              Streaming Anime Website with Useful feature
+            </p>
+
+            <div class="akbar-social-link">
+              <a href="#" class="akbar-social-link-item">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="#" class="akbar-social-link-item">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <a href="#" class="akbar-social-link-item">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a href="#" class="akbar-social-link-item">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <div class="akbar-footer-links">
+            <ul>
+              <h4 class="akbar-link-heading">ICHIBANIME</h4>
+
+              <li class="akbar-link-item"><a href="#">About us</a></li>
+              <li class="akbar-link-item"><a href="#">Pricing</a></li>
+              <li class="akbar-link-item"><a href="#">Contacts</a></li>
+            </ul>
+
+            <ul>
+              <h4 class="akbar-link-heading">Browse</h4>
+
+              <li class="akbar-link-item"><a href="#">TV</a></li>
+              <li class="akbar-link-item"><a href="#">Movies</a></li>
+              <li class="akbar-link-item"><a href="#">Live Events</a></li>
+            </ul>
+
+            <ul>
+              <h4 class="akbar-link-heading">Anime</h4>
+
+              <li class="akbar-link-item"><a href="#">Comedy</a></li>
+              <li class="akbar-link-item"><a href="#">Action</a></li>
+              <li class="akbar-link-item"><a href="#">Thriller</a></li>
+              <li class="akbar-link-item"><a href="#">Music</a></li>
+              <li class="akbar-link-item"><a href="#">Sports</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="akbar-footer-copyright">
+          <div class="akbar-copyright">
+            <p>&copy; Copyright 2023 ICHIBANIME</p>
+          </div>
+
+          <div class="akbar-wrapper">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">GDPR Commitment</a>
+            <a href="#">Accessibility Policy</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
