@@ -1,0 +1,80 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-semi-primary: #576cbc;
+  --color-light: #a5d7e8;
+  --color-primary: #19376d;
+  --color-dark: #0b2447;
+}
+
+.akbar-contact-container {
+  background: var(--color-dark);
+  padding: 0 120px;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#akbar-contact {
+  background: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+form .akbar-input,
+form .akbar-textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: var(--color-white);
+  border-radius: 10px;
+  color: var(--color-dark);
+}
+
+.akbar-contact-submit {
+  background: var(--color-semi-primary);
+  color: var(--color-white);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .akbar-contact-container {
+    margin-top: 200px;
+    padding: 0 20px;
+  }
+  #akbar-contact {
+    padding: 2vw 4vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .akbar-contact-container {
+    margin-top: 200px;
+    padding: 0 20px;
+  }
+  #akbar-contact {
+    padding: 2vw 4vw;
+  }
+  h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .akbar-contact-submit {
+    margin-bottom: 20px;
+  }
+}

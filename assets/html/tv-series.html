@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime Streaming</title>
+    <link rel="stylesheet" href="/assets/css/pagination.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -21,20 +26,16 @@
           <nav class="">
             <ul class="akbar-navbar-nav">
               <li>
-                <a href="index.html" class="akbar-navbar-link">Home</a>
+                <a href="../../index.html" class="akbar-navbar-link">Home</a>
               </li>
               <li>
-                <a href="assets/html/trending.html" class="akbar-navbar-link"
-                  >Trending</a
-                >
+                <a href="trending.html" class="akbar-navbar-link">Trending</a>
               </li>
               <li>
-                <a href="assets/html/tv-series.html" class="akbar-navbar-link"
-                  >TV Series</a
-                >
+                <a href="tv-series.html" class="akbar-navbar-link">TV Series</a>
               </li>
               <li>
-                <a href="#" class="akbar-navbar-link">Movies</a>
+                <a href="movies.html" class="akbar-navbar-link">Movies</a>
               </li>
               <li>
                 <a href="/assets/html/genre.html" class="akbar-navbar-link"
@@ -73,86 +74,13 @@
       </header>
 
       <main>
-        <section class="akbar-banner">
-          <div class="akbar-banner-card">
-            <img
-              src="/assets/img/jujutsu-banner.jpeg"
-              alt=""
-              class="akbar-banner-img"
-            />
-
-            <div class="akbar-card-content">
-              <h2 class="akbar-card-title">Jujutsu Kaisen Season 2</h2>
-              <div class="akbar-card-info">
-                <div class="akbar-duration">
-                  <ion-icon name="time"></ion-icon>
-                  <span>23 min</span>
-                </div>
-                <div class="akbar-genre">
-                  <ion-icon name="film"></ion-icon>
-                  <span>Action/School</span>
-                </div>
-
-                <div class="akbar-year">
-                  <ion-icon name="calendar"></ion-icon>
-                  <span>6 Jul, 2023</span>
-                </div>
-
-                <div class="akbar-rating">
-                  <ion-icon name="star"></ion-icon>
-                  <span>8.9</span>
-                </div>
-              </div>
-              <div class="akbar-anime-watch">
-                <div class="akbar-watch">
-                  <ion-icon name="play-circle"></ion-icon>
-                  <span>Watch Now</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section class="akbar-movies">
-          <div class="akbar-filter-bar">
-            <div class="akbar-filter-dropdowns">
-              <select name="genre" class="akbar-genre">
-                <option value="All Genres">All Genres</option>
-                <option value="Action">Action</option>
-                <option value="Adventure">Adventure</option>
-                <option value="Comedy">Comedy</option>
-                <option value="Drama">Drama</option>
-                <option value="Fantasy">Fantasy</option>
-                <option value="Thriller">Thriller</option>
-              </select>
-
-              <select name="genre" class="akbar-year">
-                <option value="All Years">All Years</option>
-                <option value="2023">2023</option>
-                <option value="2021-2022">2021-2022</option>
-                <option value="2019-2020">2019-2020</option>
-                <option value="2017-2018">2017-2018</option>
-                <option value="2015-2016">2015-2016</option>
-                <option value="2013-2014">2013-2014</option>
-              </select>
-            </div>
-            <div class="akbar-filter-anime">
-              <input type="radio" name="grade" id="featured" checked />
-              <label for="featured">Featured</label>
-
-              <input type="radio" name="grade" id="popular" checked />
-              <label for="popular">Popular</label>
-
-              <input type="radio" name="grade" id="newest" checked />
-              <label for="newest">Newest</label>
-            </div>
-          </div>
-
+          <h2 style="margin: 60px 0 60px 0">Anime TV Series</h2>
           <div class="akbar-anime-grid">
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/Kimetsu.jpg"
+                  src="/assets/img/tv-series/Kimetsu.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -186,7 +114,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/onePiece.jpg"
+                  src="/assets/img/tv-series/onePiece.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -220,7 +148,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/stone.jpg"
+                  src="/assets/img/tv-series/stone.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -254,7 +182,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/sxf.webp"
+                  src="/assets/img/tv-series/sxf.webp"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -288,7 +216,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/undead.jpg"
+                  src="/assets/img/tv-series/undead.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -322,7 +250,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/haikyuu.jpg"
+                  src="/assets/img/tv-series/haikyuu.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -356,7 +284,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/kimi.webp"
+                  src="/assets/img/tv-series/kimi.webp"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -390,7 +318,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/tunel.jpg"
+                  src="/assets/img/tunel.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -426,7 +354,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/Utagoe.jpg"
+                  src="/assets/img/Utagoe.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -462,7 +390,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/trending/Utagoe.jpg"
+                  src="/assets/img/Utagoe.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -496,85 +424,12 @@
             </div>
           </div>
 
-          <button class="akbar-load-more">
-            <a href="assets/html/trending.html"> Load More </a>
-          </button>
-        </section>
-
-        <section class="akbar-category">
-          <h2 class="akbar-section-heading">Genre</h2>
-          <div class="akbar-category-grid">
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/action.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Action</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/romance.webp"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Romance</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/sports.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Sports</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/comedy.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Comedy</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/comedy.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Drama</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/isekai.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Isekai</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/thriller.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Thriller</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/Music.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Music</div>
-            </div>
+          <div class="links">
+            <a href="#" class="link active">1</a>
+            <a href="#" class="link">2</a>
+            <a href="#" class="link">3</a>
+            <a href="#" class="link">4</a>
+            <a href="#" class="link">5</a>
           </div>
         </section>
       </main>
@@ -609,9 +464,7 @@
 
               <li class="akbar-link-item"><a href="#">About us</a></li>
               <li class="akbar-link-item"><a href="#">Pricing</a></li>
-              <li class="akbar-link-item">
-                <a href="assets/html/contact.html">Contacts</a>
-              </li>
+              <li class="akbar-link-item"><a href="#">Contacts</a></li>
             </ul>
 
             <ul>

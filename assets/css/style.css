@@ -798,7 +798,7 @@ ul .akbar-link-item:not(:last-child) {
 }
 
 /* responsive 1024 */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .akbar-banner-card .akbar-card-content {
     bottom: 40px;
     left: 40px;
@@ -864,5 +864,23 @@ ul .akbar-link-item:not(:last-child) {
     background: var(--color-primary);
     color: var(--color-white);
     border-radius: 20px;
+  }
+
+  .akbar-filter-bar select {
+    background: var(--color-primary);
+    color: var(--color-white);
+    font-size: 14px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .akbar-anime-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+
+  .akbar-category-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
   }
 }

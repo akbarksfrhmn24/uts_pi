@@ -4,18 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime Streaming</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <style>
-      h3 {
-        font-weight: 700;
-        margin-bottom: 40px;
-        display: none;
-      }
-      h2 {
-        margin-top: 80px;
-        margin-bottom: 40px;
-      }
-    </style>
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
     <div class="container">
@@ -35,16 +25,22 @@
                 <a href="../../index.html" class="akbar-navbar-link">Home</a>
               </li>
               <li>
-                <a href="#" class="akbar-navbar-link">Trending</a>
+                <a href="assets/html/trending.html" class="akbar-navbar-link"
+                  >Trending</a
+                >
               </li>
               <li>
-                <a href="#" class="akbar-navbar-link">TV Series</a>
+                <a href="assets/html/tv-series.html" class="akbar-navbar-link"
+                  >TV Series</a
+                >
               </li>
               <li>
                 <a href="#" class="akbar-navbar-link">Movies</a>
               </li>
               <li>
-                <a href="genre.html" class="akbar-navbar-link">Genre</a>
+                <a href="/assets/html/genre.html" class="akbar-navbar-link"
+                  >Genre</a
+                >
               </li>
             </ul>
           </nav>
@@ -69,7 +65,7 @@
               <ion-icon name="search-outline"></ion-icon>
             </button>
 
-            <a href="signin.html" class="akbar-navbar-signin">
+            <a href="/assets/html/signin.html" class="akbar-navbar-signin">
               <span>Sign in</span>
               <ion-icon name="log-in-outline"></ion-icon>
             </a>
@@ -78,119 +74,45 @@
       </header>
 
       <main>
-        <section class="akbar-category">
-          <h2 class="akbar-section-heading">Genre</h2>
-          <h3>Category</h3>
-          <div class="akbar-category-grid">
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/action.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Action</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/romance.webp"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Romance</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/sports.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Sports</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/comedy.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Comedy</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/comedy.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Drama</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/isekai.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Isekai</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/thriller.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Thriller</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/Music.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Music</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/comedy.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Drama</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/isekai.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Isekai</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/thriller.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Thriller</div>
-            </div>
-
-            <div class="akbar-category-card">
-              <img
-                src="/assets/img/genre/thriller.jpg"
-                alt=""
-                class="akbar-category-img"
-              />
-              <div class="akbar-name">Thriller</div>
-            </div>
-          </div>
-        </section>
+        <div class="akbar-contact-container">
+          <form id="akbar-contact" name="akbar-contact-form">
+            <h3>GET IN TOUCH</h3>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your Name"
+              required
+              class="akbar-input"
+              name="name"
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Your Email"
+              required
+              class="akbar-input"
+              name="email"
+            />
+            <input
+              type="text"
+              id="phone"
+              placeholder="Your Phone Number"
+              required
+              class="akbar-input"
+              name="phone"
+            />
+            <textarea
+              name="message"
+              id="message"
+              rows="4"
+              placeholder="How can we help you?"
+              required
+              class="akbar-textarea"
+              name="message"
+            ></textarea>
+            <button type="submit" class="akbar-contact-submit">Send</button>
+          </form>
+        </div>
       </main>
 
       <footer>
@@ -223,7 +145,9 @@
 
               <li class="akbar-link-item"><a href="#">About us</a></li>
               <li class="akbar-link-item"><a href="#">Pricing</a></li>
-              <li class="akbar-link-item"><a href="#">Contacts</a></li>
+              <li class="akbar-link-item">
+                <a href="contact.html">Contacts</a>
+              </li>
             </ul>
 
             <ul>
@@ -270,5 +194,21 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="/assets/js/main.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzhJtQyIcD979e9cNAWlGgj9jsMOAG_5jvfyF86kAVUG_vqRf6T4uf7jUXv9yx3Ui25mw/exec";
+      const form = document.forms["akbar-contact-form"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            alert("Thanks for Contacting us..! We Will Contact You Soon..!");
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>
