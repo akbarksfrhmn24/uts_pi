@@ -142,24 +142,24 @@ body {
   align-items: center;
   padding: 200px 0;
 }
-.login-form {
+.akbar-login-form {
   width: 500px;
   margin: 0 auto;
   padding: 2rem;
   border-radius: 20px;
   background: var(--color-primary);
 }
-.form-input {
+.akbar-form-input {
   background: var(--color-white);
   border-radius: 15px;
   padding: 12px;
   width: 100%;
   color: var(--color-dark);
 }
-.form-group {
+.akbar-form-group {
   margin-bottom: 1rem;
 }
-.form-button {
+.akbar-form-button {
   background: var(--color-dark);
   border-radius: 20px;
   color: #ffffff;
@@ -167,15 +167,15 @@ body {
   width: 100%;
   text-transform: uppercase;
 }
-.form-button:hover {
+.akbar-form-button:hover {
   background: #69c8e7;
   color: var(--color-dark);
 }
-.form-header {
+.akbar-form-header {
   text-align: center;
   margin-bottom: 2rem;
 }
-.form-footer {
+.akbar-form-footer {
   text-align: center;
 }
 

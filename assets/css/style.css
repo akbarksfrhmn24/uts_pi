@@ -774,6 +774,10 @@ ul .akbar-link-item:not(:last-child) {
     margin-top: 100px;
   }
 
+  .akbar-movies {
+    margin-top: 100px;
+  }
+
   .akbar-banner-card .akbar-card-title {
     font-size: 2.5em;
   }
@@ -853,6 +857,29 @@ ul .akbar-link-item:not(:last-child) {
 
 /* responsive 425px */
 @media screen and (max-width: 575px) {
+  .akbar-navbar {
+    padding: 20px;
+  }
+
+  .akbar-navbar-menu {
+    left: 15px;
+  }
+
+  .akbar-navbar-form-search {
+    margin-right: 15px;
+  }
+
+  .akbar-movies {
+    margin-top: 70px;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+
+  .akbar-category {
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+
   .akbar-navbar-signin span {
     display: none;
   }
@@ -867,11 +894,7 @@ ul .akbar-link-item:not(:last-child) {
   }
 
   .akbar-filter-bar select {
-    background: var(--color-primary);
-    color: var(--color-white);
-    font-size: 14px;
-    margin-right: 15px;
-    cursor: pointer;
+    display: none;
   }
 
   .akbar-anime-grid {
@@ -882,5 +905,12 @@ ul .akbar-link-item:not(:last-child) {
   .akbar-category-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+  .akbar-footer-copyright .akbar-wrapper {
+    display: none;
+  }
+
+  footer {
+    padding: 20px;
   }
 }

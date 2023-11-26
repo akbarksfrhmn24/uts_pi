@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime Streaming</title>
-    <link rel="stylesheet" href="/assets/css/pagination.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="../css/pagination.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -38,9 +39,7 @@
                 <a href="movies.html" class="akbar-navbar-link">Movies</a>
               </li>
               <li>
-                <a href="/assets/html/genre.html" class="akbar-navbar-link"
-                  >Genre</a
-                >
+                <a href="genre.html" class="akbar-navbar-link">Genre</a>
               </li>
             </ul>
           </nav>
@@ -65,7 +64,7 @@
               <ion-icon name="search-outline"></ion-icon>
             </button>
 
-            <a href="/assets/html/signin.html" class="akbar-navbar-signin">
+            <a href="signin.html" class="akbar-navbar-signin">
               <span>Sign in</span>
               <ion-icon name="log-in-outline"></ion-icon>
             </a>
@@ -75,12 +74,216 @@
 
       <main>
         <section class="akbar-movies">
-          <h2 style="margin: 60px 0 60px 0">Movies Anime</h2>
+          <h2 style="margin: 60px 0 60px 0">Movie Anime.</h2>
           <div class="akbar-anime-grid">
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/movies/kimi.webp"
+                  src="../img/movies/hotaru.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.9</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Hotaru no Haka</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Drama</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">1988</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/hotarubi.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Hotarubi no Mori e</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Romance</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2011</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/howl.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Howl's Moving Castle</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Adventure</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2004</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/jujutsu0.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Jujutsu Kaisen 0</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Action</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2022</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/koe.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Koe no Katachi</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Drama</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2016</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/mononoke.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Mononoke Hime</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Sport</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2014</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/trending/kimi.webp"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -114,7 +317,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/movies/tunel.jpg"
+                  src="../img/trending/tunel.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -150,7 +353,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/movies/Utagoe.jpg"
+                  src="../img/trending/Utagoe.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -171,9 +374,7 @@
               </div>
 
               <div class="akbar-card-body">
-                <h3 class="akbar-card-title">
-                  Natsu e no Tunnel, Sayonara no Deguchi
-                </h3>
+                <h3 class="akbar-card-title">Ai no Utagoe wo Kikasete</h3>
 
                 <div class="akbar-card-info">
                   <span class="akbar-genre">Romance</span>
@@ -186,7 +387,7 @@
             <div class="akbar-anime-card">
               <div class="akbar-card-head">
                 <img
-                  src="/assets/img/movies/Utagoe.jpg"
+                  src="../img/movies/pranceas.jpg"
                   alt=""
                   class="akbar-card-img"
                 />
@@ -207,25 +408,166 @@
               </div>
 
               <div class="akbar-card-body">
-                <h3 class="akbar-card-title">
-                  Natsu e no Tunnel, Sayonara no Deguchi
-                </h3>
+                <h3 class="akbar-card-title">I want to eat your Pancreas</h3>
 
                 <div class="akbar-card-info">
-                  <span class="akbar-genre">Romance</span>
+                  <span class="akbar-genre">Drama</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2016</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/slamdunk.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.9</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">The First Slam Dunk</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Action</span>
                   <span class="akbar-space">-</span>
                   <span class="akbar-year">2022</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/spirited.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Spirited Away</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Adventure</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2001</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/suzume.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">Suzume no Tojimari</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Adventure</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">2022</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="akbar-anime-card">
+              <div class="akbar-card-head">
+                <img
+                  src="../img/movies/totoro.jpg"
+                  alt=""
+                  class="akbar-card-img"
+                />
+                <div class="akbar-card-overlay">
+                  <div class="akbar-bookmark">
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+
+                  <div class="akbar-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <span>8.7</span>
+                  </div>
+
+                  <div class="akbar-play">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+
+              <div class="akbar-card-body">
+                <h3 class="akbar-card-title">My Neighbor Totoro</h3>
+
+                <div class="akbar-card-info">
+                  <span class="akbar-genre">Adventure</span>
+                  <span class="akbar-space">-</span>
+                  <span class="akbar-year">1988</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="links">
-            <a href="#" class="link active">1</a>
-            <a href="#" class="link">2</a>
-            <a href="#" class="link">3</a>
-            <a href="#" class="link">4</a>
-            <a href="#" class="link">5</a>
+          <div class="akbar-pagination">
+            <li class="akbar-page-item previous-page disable">
+              <a class="page-link" href="">Prev</a>
+            </li>
+            <li class="akbar-page-item current-page pagination-active">
+              <a class="page-link" href="">1</a>
+            </li>
+            <li class="akbar-page-item current-page">
+              <a class="page-link" href="">2</a>
+            </li>
+            <li class="akbar-page-item next-page">
+              <a class="page-link" href="">Next</a>
+            </li>
           </div>
         </section>
       </main>
@@ -260,7 +602,9 @@
 
               <li class="akbar-link-item"><a href="#">About us</a></li>
               <li class="akbar-link-item"><a href="#">Pricing</a></li>
-              <li class="akbar-link-item"><a href="#">Contacts</a></li>
+              <li class="akbar-link-item">
+                <a href="contact.html">Contacts</a>
+              </li>
             </ul>
 
             <ul>
@@ -306,6 +650,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/pagination.js"></script>
   </body>
 </html>
